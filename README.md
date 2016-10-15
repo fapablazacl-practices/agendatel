@@ -20,16 +20,21 @@ Cada campo se debe validar de la siguiente forma:
 
 La aplicacion consta de la siguiente estructura:
 
-Pagina Principal: Muestra el listado, paginado, de contactos almacendos, desplegados en una tabla. Cada fila de esta tabla debe contener
+* Pagina Principal: Muestra el listado, paginado, de contactos almacendos, desplegados en una tabla. Cada fila de esta tabla debe contener
 todos los campos detallados mas arriba. La ultima columna debe tener las acciones disponibles para ese registro (Actualizar, Eliminar)
 
-Nuevo Contacto: Agrega un nuevo contacto, mostrando todos los campos establecidos mas arriba, para que el usuario pueda escribir la informacion.
+* Nuevo Contacto: Agrega un nuevo contacto, mostrando todos los campos establecidos mas arriba, para que el usuario pueda escribir la informacion.
 Actualizar Contacto: Actualiza el contacto asociado a la fila. Debe mostrar la misma interfaz que la opcion "nuevo contacto".
-Eliminar Contacto: Elimina el contacto asociado a la fila. Debe preguntar primero si esta seguro de realizar tal accion.
-Importar Contactos: Permite subir un archivo CSV para importar de forma rapida muchos contactos simultaneamente.
+
+* Eliminar Contacto: Elimina el contacto asociado a la fila. Debe preguntar primero si esta seguro de realizar tal accion.
+
+* Importar Contactos: Permite subir un archivo CSV para importar de forma rapida muchos contactos simultaneamente.
+
+* Exportar Contactos: Permite exportar los contactos como un archivo CSV.
+
 Buscar Contactos: Permite buscar contactos de una forma rapida 
 
 Se debe implementar en Node.js como backend, utilizando tecnologias Web modernas (HTML5, CSS3 con Ajax) para el frontend.
 
 ETAPA 2
-En la etapa 2, se debe lograr un diseño web de calidad profesional, utilizando animaciones 
+En la etapa 2, se debe lograr un diseño web de calidad profesional, utilizando todo tipo de elementos HTML5 y CSS3.

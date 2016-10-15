@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+
+<html>
+    <head><title>Agenda Telefonica</title></head>
+
+    <body>
+        <div>Agregar Contacto</div>
+        
+        <form method="GET" action="add_contact">
+            <table>
+                <tr> 
+                    <td>Nombres</td> 
+                    <td> <input type="text" name="nombres"> </input> </td>
+                </tr>
+
+                <tr> 
+                    <td>Apellidos</td> 
+                    <td> <input type="text" name="apellidos"> </input> </td>
+                </tr>
+
+                <tr> 
+                    <td>Direccion</td> 
+                    <td> <input type="text" name="direccion" > </input> </td>
+                </tr>
+
+                <tr> 
+                    <td>Correo</td> 
+                    <td> <input type="text" name="correo" > </input> </td>
+                </tr>
+
+                <tr> 
+                    <td>Numero</td> 
+                    <td> <input type="text" name="telefono" > </input> </td>
+                </tr>      
+            </table>
+
+            <input type="submit" value="Agregar" />
+            <input type="button" value="Volver" onclick="javascript:window.history.back()" />
+        </form>
+    </body>
+</html>

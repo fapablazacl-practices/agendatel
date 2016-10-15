@@ -20,7 +20,8 @@ var fs = require("fs");
 var bodyParser = require("body-parser");
 var multer = require("multer");
 
-app.use(express.static("publics"));
+app.use(express.static("public"));
+app.use("/", express.static(__dirname));
 app.use(bodyParser.urlencoded({extended:false}));
 
 var upload = multer({desc:"/tmp"});
